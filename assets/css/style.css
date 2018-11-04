@@ -1,3 +1,17 @@
+
+.box {
+    display: grid;
+    width: 540px;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+             
+
 body{
     margin:0px;
     height: 100%;
@@ -18,28 +32,51 @@ body{
     
     
      }
-#box1 {
-    width:200px;
+     
+#button1 {
+        width: 10rem;
+        float: center;
+        height: 10rem;
+        background-color: rgb(143, 117, 117);
+        margin-right: 0rem;
+        margin-top: 45rem;
+        border-radius: 1rem;
+        }
+#box1, .inputgroup2 {
+    width: 45rem;
     float: left;
-    height: 300px;
+    height: 90rem;
     background-color: rgb(143, 117, 117);
-    margin-right: 20px;
+    margin-right: 0px;
+    margin-top: 5rem;
     }
 #box2{
-    width: 200px;
-    float: left;
-    height: 300px;
+    width: 45rem;
+    float: free;
+    position: absolute;
+    margin-left: 55rem;
+    height: 90rem;
+    margin-top: -50rem;
     background-color: rgb(104, 104, 136);
     }
 #clear {
     clear: both;
     }
 #footer {
-    width: 100%;
+    width: 100rem;
     background-color: black;
-    height: 50px;
-    margin-top:300px;
+    height: 5rem;
+    margin-top:0px;
     color: white;
-    font-size:25px;
+    font-size: 1rem;
     position: absolute;
     }
+#header {
+        width: 100rem;
+        background-color: black;
+        height: 5rem;
+        margin-top:0px;
+        color: white;
+        font-size: 1rem;
+        position: fixed;
+        }
